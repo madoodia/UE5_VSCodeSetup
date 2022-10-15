@@ -1,0 +1,10 @@
+[
+	{
+		"file": "D:\\madoodia\\dev\\UnrealProjects\\UE5_VSCodeSetup\\Source\\UE5_VSCodeSetup\\UE5_VSCodeSetup.Build.cs",
+		"arguments": [
+			"C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\VC\\Tools\\MSVC\\14.29.30133\\bin\\HostX64\\x64\\cl.exe",
+			"@D:\\madoodia\\dev\\UnrealProjects\\UE5_VSCodeSetup\\.vscode\\compileCommands_Default\\UE5_VSCodeSetup.250.rsp"
+		],
+		"directory": "D:\\Games\\EpicGames\\UE_5.1\\Engine\\Source"
+	}
+]

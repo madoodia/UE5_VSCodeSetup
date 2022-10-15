@@ -1,0 +1,152 @@
+{
+	"version": "0.2.0",
+	"configurations": [
+		{
+			"name": "Launch UE5_VSCodeSetup (Debug)",
+			"request": "launch",
+			"program": "D:\\madoodia\\dev\\UnrealProjects\\UE5_VSCodeSetup\\Binaries\\Win64\\UnrealGame-Win64-Debug.exe",
+			"preLaunchTask": "UE5_VSCodeSetup Win64 Debug Build",
+			"args": [
+			],
+			"cwd": "D:\\Games\\EpicGames\\UE_5.1",
+			"stopAtEntry": false,
+			"console": "externalTerminal",
+			"type": "cppvsdbg",
+			"visualizerFile": "D:\\Games\\EpicGames\\UE_5.1\\Engine\\Extras\\VisualStudioDebugging\\Unreal.natvis",
+			"sourceFileMap": {
+				"D:\\build\\++UE5\\Sync": "D:\\Games\\EpicGames\\UE_5.1"
+			}
+		},
+		{
+			"name": "Launch UE5_VSCodeSetup (DebugGame)",
+			"request": "launch",
+			"program": "D:\\madoodia\\dev\\UnrealProjects\\UE5_VSCodeSetup\\Binaries\\Win64\\UnrealGame-Win64-DebugGame.exe",
+			"preLaunchTask": "UE5_VSCodeSetup Win64 DebugGame Build",
+			"args": [
+			],
+			"cwd": "D:\\Games\\EpicGames\\UE_5.1",
+			"stopAtEntry": false,
+			"console": "externalTerminal",
+			"type": "cppvsdbg",
+			"visualizerFile": "D:\\Games\\EpicGames\\UE_5.1\\Engine\\Extras\\VisualStudioDebugging\\Unreal.natvis",
+			"sourceFileMap": {
+				"D:\\build\\++UE5\\Sync": "D:\\Games\\EpicGames\\UE_5.1"
+			}
+		},
+		{
+			"name": "Launch UE5_VSCodeSetup (Development)",
+			"request": "launch",
+			"program": "D:\\madoodia\\dev\\UnrealProjects\\UE5_VSCodeSetup\\Binaries\\Win64\\UnrealGame.exe",
+			"preLaunchTask": "UE5_VSCodeSetup Win64 Development Build",
+			"args": [
+			],
+			"cwd": "D:\\Games\\EpicGames\\UE_5.1",
+			"stopAtEntry": false,
+			"console": "externalTerminal",
+			"type": "cppvsdbg",
+			"visualizerFile": "D:\\Games\\EpicGames\\UE_5.1\\Engine\\Extras\\VisualStudioDebugging\\Unreal.natvis",
+			"sourceFileMap": {
+				"D:\\build\\++UE5\\Sync": "D:\\Games\\EpicGames\\UE_5.1"
+			}
+		},
+		{
+			"name": "Launch UE5_VSCodeSetup (Test)",
+			"request": "launch",
+			"program": "D:\\madoodia\\dev\\UnrealProjects\\UE5_VSCodeSetup\\Binaries\\Win64\\UnrealGame-Win64-Test.exe",
+			"preLaunchTask": "UE5_VSCodeSetup Win64 Test Build",
+			"args": [
+			],
+			"cwd": "D:\\Games\\EpicGames\\UE_5.1",
+			"stopAtEntry": false,
+			"console": "externalTerminal",
+			"type": "cppvsdbg",
+			"visualizerFile": "D:\\Games\\EpicGames\\UE_5.1\\Engine\\Extras\\VisualStudioDebugging\\Unreal.natvis",
+			"sourceFileMap": {
+				"D:\\build\\++UE5\\Sync": "D:\\Games\\EpicGames\\UE_5.1"
+			}
+		},
+		{
+			"name": "Launch UE5_VSCodeSetup (Shipping)",
+			"request": "launch",
+			"program": "D:\\madoodia\\dev\\UnrealProjects\\UE5_VSCodeSetup\\Binaries\\Win64\\UnrealGame-Win64-Shipping.exe",
+			"preLaunchTask": "UE5_VSCodeSetup Win64 Shipping Build",
+			"args": [
+			],
+			"cwd": "D:\\Games\\EpicGames\\UE_5.1",
+			"stopAtEntry": false,
+			"console": "externalTerminal",
+			"type": "cppvsdbg",
+			"visualizerFile": "D:\\Games\\EpicGames\\UE_5.1\\Engine\\Extras\\VisualStudioDebugging\\Unreal.natvis",
+			"sourceFileMap": {
+				"D:\\build\\++UE5\\Sync": "D:\\Games\\EpicGames\\UE_5.1"
+			}
+		},
+		{
+			"name": "Launch UE5_VSCodeSetupEditor (Debug)",
+			"request": "launch",
+			"program": "D:\\Games\\EpicGames\\UE_5.1\\Engine\\Binaries\\Win64\\UnrealEditor-Win64-Debug.exe",
+			"preLaunchTask": "UE5_VSCodeSetupEditor Win64 Debug Build",
+			"args": [
+				"D:\\madoodia\\dev\\UnrealProjects\\UE5_VSCodeSetup\\UE5_VSCodeSetup.uproject"
+			],
+			"cwd": "D:\\Games\\EpicGames\\UE_5.1",
+			"stopAtEntry": false,
+			"console": "externalTerminal",
+			"type": "cppvsdbg",
+			"visualizerFile": "D:\\Games\\EpicGames\\UE_5.1\\Engine\\Extras\\VisualStudioDebugging\\Unreal.natvis",
+			"sourceFileMap": {
+				"D:\\build\\++UE5\\Sync": "D:\\Games\\EpicGames\\UE_5.1"
+			}
+		},
+		{
+			"name": "Launch UE5_VSCodeSetupEditor (DebugGame)",
+			"request": "launch",
+			"program": "D:\\Games\\EpicGames\\UE_5.1\\Engine\\Binaries\\Win64\\UnrealEditor-Win64-DebugGame.exe",
+			"preLaunchTask": "UE5_VSCodeSetupEditor Win64 DebugGame Build",
+			"args": [
+				"D:\\madoodia\\dev\\UnrealProjects\\UE5_VSCodeSetup\\UE5_VSCodeSetup.uproject"
+			],
+			"cwd": "D:\\Games\\EpicGames\\UE_5.1",
+			"stopAtEntry": false,
+			"console": "externalTerminal",
+			"type": "cppvsdbg",
+			"visualizerFile": "D:\\Games\\EpicGames\\UE_5.1\\Engine\\Extras\\VisualStudioDebugging\\Unreal.natvis",
+			"sourceFileMap": {
+				"D:\\build\\++UE5\\Sync": "D:\\Games\\EpicGames\\UE_5.1"
+			}
+		},
+		{
+			"name": "Launch UE5_VSCodeSetupEditor (Development)",
+			"request": "launch",
+			"program": "D:\\Games\\EpicGames\\UE_5.1\\Engine\\Binaries\\Win64\\UnrealEditor.exe",
+			"preLaunchTask": "UE5_VSCodeSetupEditor Win64 Development Build",
+			"args": [
+				"D:\\madoodia\\dev\\UnrealProjects\\UE5_VSCodeSetup\\UE5_VSCodeSetup.uproject"
+			],
+			"cwd": "D:\\Games\\EpicGames\\UE_5.1",
+			"stopAtEntry": false,
+			"console": "externalTerminal",
+			"type": "cppvsdbg",
+			"visualizerFile": "D:\\Games\\EpicGames\\UE_5.1\\Engine\\Extras\\VisualStudioDebugging\\Unreal.natvis",
+			"sourceFileMap": {
+				"D:\\build\\++UE5\\Sync": "D:\\Games\\EpicGames\\UE_5.1"
+			}
+		},
+		{
+			"name": "Generate Project Files",
+			"type": "coreclr",
+			"request": "launch",
+			"program": "D:\\Games\\EpicGames\\UE_5.1\\Engine\\Build\\BatchFiles\\RunUBT.bat",
+			"args": [
+				"-projectfiles",
+				"-vscode",
+				"-project=D:\\madoodia\\dev\\UnrealProjects\\UE5_VSCodeSetup\\UE5_VSCodeSetup.uproject",
+				"-game",
+				"-engine"
+			],
+			"console": "externalTerminal",
+			"stopAtEntry": false,
+			"cwd": "D:\\Games\\EpicGames\\UE_5.1"
+		}
+	]
+}

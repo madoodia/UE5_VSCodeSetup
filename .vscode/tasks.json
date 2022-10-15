@@ -1,0 +1,707 @@
+{
+	"version": "2.0.0",
+	"tasks": [
+		{
+			"label": "UE5_VSCodeSetup Win64 Debug Build",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"UE5_VSCodeSetup",
+				"Win64",
+				"Debug",
+				"D:\\madoodia\\dev\\UnrealProjects\\UE5_VSCodeSetup\\UE5_VSCodeSetup.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "D:\\Games\\EpicGames\\UE_5.1"
+			}
+		},
+		{
+			"label": "UE5_VSCodeSetup Win64 Debug Rebuild",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"UE5_VSCodeSetup",
+				"Win64",
+				"Debug",
+				"D:\\madoodia\\dev\\UnrealProjects\\UE5_VSCodeSetup\\UE5_VSCodeSetup.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"UE5_VSCodeSetup Win64 Debug Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "D:\\Games\\EpicGames\\UE_5.1"
+			}
+		},
+		{
+			"label": "UE5_VSCodeSetup Win64 Debug Clean",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Clean.bat",
+			"args": [
+				"UE5_VSCodeSetup",
+				"Win64",
+				"Debug",
+				"D:\\madoodia\\dev\\UnrealProjects\\UE5_VSCodeSetup\\UE5_VSCodeSetup.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "D:\\Games\\EpicGames\\UE_5.1"
+			}
+		},
+		{
+			"label": "UE5_VSCodeSetup Win64 DebugGame Build",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"UE5_VSCodeSetup",
+				"Win64",
+				"DebugGame",
+				"D:\\madoodia\\dev\\UnrealProjects\\UE5_VSCodeSetup\\UE5_VSCodeSetup.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "D:\\Games\\EpicGames\\UE_5.1"
+			}
+		},
+		{
+			"label": "UE5_VSCodeSetup Win64 DebugGame Rebuild",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"UE5_VSCodeSetup",
+				"Win64",
+				"DebugGame",
+				"D:\\madoodia\\dev\\UnrealProjects\\UE5_VSCodeSetup\\UE5_VSCodeSetup.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"UE5_VSCodeSetup Win64 DebugGame Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "D:\\Games\\EpicGames\\UE_5.1"
+			}
+		},
+		{
+			"label": "UE5_VSCodeSetup Win64 DebugGame Clean",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Clean.bat",
+			"args": [
+				"UE5_VSCodeSetup",
+				"Win64",
+				"DebugGame",
+				"D:\\madoodia\\dev\\UnrealProjects\\UE5_VSCodeSetup\\UE5_VSCodeSetup.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "D:\\Games\\EpicGames\\UE_5.1"
+			}
+		},
+		{
+			"label": "UE5_VSCodeSetup Win64 Development Build",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"UE5_VSCodeSetup",
+				"Win64",
+				"Development",
+				"D:\\madoodia\\dev\\UnrealProjects\\UE5_VSCodeSetup\\UE5_VSCodeSetup.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "D:\\Games\\EpicGames\\UE_5.1"
+			}
+		},
+		{
+			"label": "UE5_VSCodeSetup Win64 Development Rebuild",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"UE5_VSCodeSetup",
+				"Win64",
+				"Development",
+				"D:\\madoodia\\dev\\UnrealProjects\\UE5_VSCodeSetup\\UE5_VSCodeSetup.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"UE5_VSCodeSetup Win64 Development Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "D:\\Games\\EpicGames\\UE_5.1"
+			}
+		},
+		{
+			"label": "UE5_VSCodeSetup Win64 Development Clean",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Clean.bat",
+			"args": [
+				"UE5_VSCodeSetup",
+				"Win64",
+				"Development",
+				"D:\\madoodia\\dev\\UnrealProjects\\UE5_VSCodeSetup\\UE5_VSCodeSetup.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "D:\\Games\\EpicGames\\UE_5.1"
+			}
+		},
+		{
+			"label": "UE5_VSCodeSetup Win64 Test Build",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"UE5_VSCodeSetup",
+				"Win64",
+				"Test",
+				"D:\\madoodia\\dev\\UnrealProjects\\UE5_VSCodeSetup\\UE5_VSCodeSetup.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "D:\\Games\\EpicGames\\UE_5.1"
+			}
+		},
+		{
+			"label": "UE5_VSCodeSetup Win64 Test Rebuild",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"UE5_VSCodeSetup",
+				"Win64",
+				"Test",
+				"D:\\madoodia\\dev\\UnrealProjects\\UE5_VSCodeSetup\\UE5_VSCodeSetup.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"UE5_VSCodeSetup Win64 Test Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "D:\\Games\\EpicGames\\UE_5.1"
+			}
+		},
+		{
+			"label": "UE5_VSCodeSetup Win64 Test Clean",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Clean.bat",
+			"args": [
+				"UE5_VSCodeSetup",
+				"Win64",
+				"Test",
+				"D:\\madoodia\\dev\\UnrealProjects\\UE5_VSCodeSetup\\UE5_VSCodeSetup.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "D:\\Games\\EpicGames\\UE_5.1"
+			}
+		},
+		{
+			"label": "UE5_VSCodeSetup Win64 Shipping Build",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"UE5_VSCodeSetup",
+				"Win64",
+				"Shipping",
+				"D:\\madoodia\\dev\\UnrealProjects\\UE5_VSCodeSetup\\UE5_VSCodeSetup.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "D:\\Games\\EpicGames\\UE_5.1"
+			}
+		},
+		{
+			"label": "UE5_VSCodeSetup Win64 Shipping Rebuild",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"UE5_VSCodeSetup",
+				"Win64",
+				"Shipping",
+				"D:\\madoodia\\dev\\UnrealProjects\\UE5_VSCodeSetup\\UE5_VSCodeSetup.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"UE5_VSCodeSetup Win64 Shipping Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "D:\\Games\\EpicGames\\UE_5.1"
+			}
+		},
+		{
+			"label": "UE5_VSCodeSetup Win64 Shipping Clean",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Clean.bat",
+			"args": [
+				"UE5_VSCodeSetup",
+				"Win64",
+				"Shipping",
+				"D:\\madoodia\\dev\\UnrealProjects\\UE5_VSCodeSetup\\UE5_VSCodeSetup.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "D:\\Games\\EpicGames\\UE_5.1"
+			}
+		},
+		{
+			"label": "UE5_VSCodeSetup IOS Debug Build",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"UE5_VSCodeSetup",
+				"IOS",
+				"Debug",
+				"D:\\madoodia\\dev\\UnrealProjects\\UE5_VSCodeSetup\\UE5_VSCodeSetup.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "D:\\Games\\EpicGames\\UE_5.1"
+			}
+		},
+		{
+			"label": "UE5_VSCodeSetup IOS Debug Rebuild",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"UE5_VSCodeSetup",
+				"IOS",
+				"Debug",
+				"D:\\madoodia\\dev\\UnrealProjects\\UE5_VSCodeSetup\\UE5_VSCodeSetup.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"UE5_VSCodeSetup IOS Debug Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "D:\\Games\\EpicGames\\UE_5.1"
+			}
+		},
+		{
+			"label": "UE5_VSCodeSetup IOS Debug Clean",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Clean.bat",
+			"args": [
+				"UE5_VSCodeSetup",
+				"IOS",
+				"Debug",
+				"D:\\madoodia\\dev\\UnrealProjects\\UE5_VSCodeSetup\\UE5_VSCodeSetup.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "D:\\Games\\EpicGames\\UE_5.1"
+			}
+		},
+		{
+			"label": "UE5_VSCodeSetup IOS DebugGame Build",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"UE5_VSCodeSetup",
+				"IOS",
+				"DebugGame",
+				"D:\\madoodia\\dev\\UnrealProjects\\UE5_VSCodeSetup\\UE5_VSCodeSetup.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "D:\\Games\\EpicGames\\UE_5.1"
+			}
+		},
+		{
+			"label": "UE5_VSCodeSetup IOS DebugGame Rebuild",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"UE5_VSCodeSetup",
+				"IOS",
+				"DebugGame",
+				"D:\\madoodia\\dev\\UnrealProjects\\UE5_VSCodeSetup\\UE5_VSCodeSetup.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"UE5_VSCodeSetup IOS DebugGame Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "D:\\Games\\EpicGames\\UE_5.1"
+			}
+		},
+		{
+			"label": "UE5_VSCodeSetup IOS DebugGame Clean",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Clean.bat",
+			"args": [
+				"UE5_VSCodeSetup",
+				"IOS",
+				"DebugGame",
+				"D:\\madoodia\\dev\\UnrealProjects\\UE5_VSCodeSetup\\UE5_VSCodeSetup.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "D:\\Games\\EpicGames\\UE_5.1"
+			}
+		},
+		{
+			"label": "UE5_VSCodeSetup IOS Development Build",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"UE5_VSCodeSetup",
+				"IOS",
+				"Development",
+				"D:\\madoodia\\dev\\UnrealProjects\\UE5_VSCodeSetup\\UE5_VSCodeSetup.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "D:\\Games\\EpicGames\\UE_5.1"
+			}
+		},
+		{
+			"label": "UE5_VSCodeSetup IOS Development Rebuild",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"UE5_VSCodeSetup",
+				"IOS",
+				"Development",
+				"D:\\madoodia\\dev\\UnrealProjects\\UE5_VSCodeSetup\\UE5_VSCodeSetup.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"UE5_VSCodeSetup IOS Development Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "D:\\Games\\EpicGames\\UE_5.1"
+			}
+		},
+		{
+			"label": "UE5_VSCodeSetup IOS Development Clean",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Clean.bat",
+			"args": [
+				"UE5_VSCodeSetup",
+				"IOS",
+				"Development",
+				"D:\\madoodia\\dev\\UnrealProjects\\UE5_VSCodeSetup\\UE5_VSCodeSetup.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "D:\\Games\\EpicGames\\UE_5.1"
+			}
+		},
+		{
+			"label": "UE5_VSCodeSetup IOS Test Build",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"UE5_VSCodeSetup",
+				"IOS",
+				"Test",
+				"D:\\madoodia\\dev\\UnrealProjects\\UE5_VSCodeSetup\\UE5_VSCodeSetup.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "D:\\Games\\EpicGames\\UE_5.1"
+			}
+		},
+		{
+			"label": "UE5_VSCodeSetup IOS Test Rebuild",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"UE5_VSCodeSetup",
+				"IOS",
+				"Test",
+				"D:\\madoodia\\dev\\UnrealProjects\\UE5_VSCodeSetup\\UE5_VSCodeSetup.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"UE5_VSCodeSetup IOS Test Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "D:\\Games\\EpicGames\\UE_5.1"
+			}
+		},
+		{
+			"label": "UE5_VSCodeSetup IOS Test Clean",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Clean.bat",
+			"args": [
+				"UE5_VSCodeSetup",
+				"IOS",
+				"Test",
+				"D:\\madoodia\\dev\\UnrealProjects\\UE5_VSCodeSetup\\UE5_VSCodeSetup.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "D:\\Games\\EpicGames\\UE_5.1"
+			}
+		},
+		{
+			"label": "UE5_VSCodeSetup IOS Shipping Build",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"UE5_VSCodeSetup",
+				"IOS",
+				"Shipping",
+				"D:\\madoodia\\dev\\UnrealProjects\\UE5_VSCodeSetup\\UE5_VSCodeSetup.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "D:\\Games\\EpicGames\\UE_5.1"
+			}
+		},
+		{
+			"label": "UE5_VSCodeSetup IOS Shipping Rebuild",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"UE5_VSCodeSetup",
+				"IOS",
+				"Shipping",
+				"D:\\madoodia\\dev\\UnrealProjects\\UE5_VSCodeSetup\\UE5_VSCodeSetup.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"UE5_VSCodeSetup IOS Shipping Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "D:\\Games\\EpicGames\\UE_5.1"
+			}
+		},
+		{
+			"label": "UE5_VSCodeSetup IOS Shipping Clean",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Clean.bat",
+			"args": [
+				"UE5_VSCodeSetup",
+				"IOS",
+				"Shipping",
+				"D:\\madoodia\\dev\\UnrealProjects\\UE5_VSCodeSetup\\UE5_VSCodeSetup.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "D:\\Games\\EpicGames\\UE_5.1"
+			}
+		},
+		{
+			"label": "UE5_VSCodeSetupEditor Win64 Debug Build",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"UE5_VSCodeSetupEditor",
+				"Win64",
+				"Debug",
+				"D:\\madoodia\\dev\\UnrealProjects\\UE5_VSCodeSetup\\UE5_VSCodeSetup.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "D:\\Games\\EpicGames\\UE_5.1"
+			}
+		},
+		{
+			"label": "UE5_VSCodeSetupEditor Win64 Debug Rebuild",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"UE5_VSCodeSetupEditor",
+				"Win64",
+				"Debug",
+				"D:\\madoodia\\dev\\UnrealProjects\\UE5_VSCodeSetup\\UE5_VSCodeSetup.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"UE5_VSCodeSetupEditor Win64 Debug Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "D:\\Games\\EpicGames\\UE_5.1"
+			}
+		},
+		{
+			"label": "UE5_VSCodeSetupEditor Win64 Debug Clean",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Clean.bat",
+			"args": [
+				"UE5_VSCodeSetupEditor",
+				"Win64",
+				"Debug",
+				"D:\\madoodia\\dev\\UnrealProjects\\UE5_VSCodeSetup\\UE5_VSCodeSetup.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "D:\\Games\\EpicGames\\UE_5.1"
+			}
+		},
+		{
+			"label": "UE5_VSCodeSetupEditor Win64 DebugGame Build",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"UE5_VSCodeSetupEditor",
+				"Win64",
+				"DebugGame",
+				"D:\\madoodia\\dev\\UnrealProjects\\UE5_VSCodeSetup\\UE5_VSCodeSetup.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "D:\\Games\\EpicGames\\UE_5.1"
+			}
+		},
+		{
+			"label": "UE5_VSCodeSetupEditor Win64 DebugGame Rebuild",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"UE5_VSCodeSetupEditor",
+				"Win64",
+				"DebugGame",
+				"D:\\madoodia\\dev\\UnrealProjects\\UE5_VSCodeSetup\\UE5_VSCodeSetup.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"UE5_VSCodeSetupEditor Win64 DebugGame Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "D:\\Games\\EpicGames\\UE_5.1"
+			}
+		},
+		{
+			"label": "UE5_VSCodeSetupEditor Win64 DebugGame Clean",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Clean.bat",
+			"args": [
+				"UE5_VSCodeSetupEditor",
+				"Win64",
+				"DebugGame",
+				"D:\\madoodia\\dev\\UnrealProjects\\UE5_VSCodeSetup\\UE5_VSCodeSetup.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "D:\\Games\\EpicGames\\UE_5.1"
+			}
+		},
+		{
+			"label": "UE5_VSCodeSetupEditor Win64 Development Build",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"UE5_VSCodeSetupEditor",
+				"Win64",
+				"Development",
+				"D:\\madoodia\\dev\\UnrealProjects\\UE5_VSCodeSetup\\UE5_VSCodeSetup.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "D:\\Games\\EpicGames\\UE_5.1"
+			}
+		},
+		{
+			"label": "UE5_VSCodeSetupEditor Win64 Development Rebuild",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"UE5_VSCodeSetupEditor",
+				"Win64",
+				"Development",
+				"D:\\madoodia\\dev\\UnrealProjects\\UE5_VSCodeSetup\\UE5_VSCodeSetup.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"UE5_VSCodeSetupEditor Win64 Development Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "D:\\Games\\EpicGames\\UE_5.1"
+			}
+		},
+		{
+			"label": "UE5_VSCodeSetupEditor Win64 Development Clean",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Clean.bat",
+			"args": [
+				"UE5_VSCodeSetupEditor",
+				"Win64",
+				"Development",
+				"D:\\madoodia\\dev\\UnrealProjects\\UE5_VSCodeSetup\\UE5_VSCodeSetup.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "D:\\Games\\EpicGames\\UE_5.1"
+			}
+		}
+	]
+}
